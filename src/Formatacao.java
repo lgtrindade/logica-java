@@ -1,5 +1,7 @@
 import java.util.Locale;
 
+//https://docs.oracle.com/javase/tutorial/java/data/numberformat.html
+
 public class Formatacao {
 
     public static void main(String[] args) {
@@ -13,8 +15,6 @@ public class Formatacao {
         // Imprime valor e formata a saida
         System.out.printf("%.2f%n", x);
         System.out.printf("%.4f%n", x);
-
-
 
     }
 }
