@@ -1,3 +1,4 @@
+import java.util.Locale;
 import java.util.Scanner;
 
     /*
@@ -9,9 +10,12 @@ import java.util.Scanner;
 
 public class CalculaRetangulo {
     public static void main(String[] args) {
-
-        double base = 5.0;
-        double altura = 4.0;
+        Locale.setDefault(Locale.US);
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Digite o valor da base:" );
+        double base = scanner.nextDouble();
+        System.out.println("Digite o valor da altura ");
+        double altura = scanner.nextDouble();
 
         double area = (base * altura);
         double perimetro = 2 * base + 2 * altura;
@@ -22,8 +26,6 @@ public class CalculaRetangulo {
         System.out.printf("Diagonal = %.4f%n", diagonal);
 
 
-
-
-
+     scanner.close();
     }
 }
