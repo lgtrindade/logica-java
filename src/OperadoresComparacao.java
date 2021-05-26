@@ -46,10 +46,5 @@ public class OperadoresComparacao {
 
         System.out.println("-------------------OPERADORES LOGICOS --- NÃO ou NOT -----------------");
 
-        !(X == 10);
-        !(X >= 2);
-
-        (X <= 20) %% (X == 10);
-
     }
 }
