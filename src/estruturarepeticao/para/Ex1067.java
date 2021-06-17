@@ -26,12 +26,13 @@ public class Ex1067 {
 
         int x = scanner.nextInt();
 
-        for (int i = 1; i <= x; i++){
-
-            if (i%2 != 0){
-                System.out.println(i);
+        if (x >= 1 && x <= 1000) {
+            for (int i = 1; i <= x; i++) {
+                if (i % 2 != 0) {
+                    System.out.println(i);
+                }
             }
+            scanner.close();
         }
-        scanner.close();
     }
 }
