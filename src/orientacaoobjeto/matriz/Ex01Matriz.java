@@ -33,7 +33,6 @@ public class Ex01Matriz {
                 matriz[i][j] = scanner.nextInt();
             }
         }
-
         // Impessao de valores
         for (int i = 0; i< M; i++) {
             for (int j = 0; j < N; j++) {
